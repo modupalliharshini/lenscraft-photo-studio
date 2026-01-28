@@ -115,9 +115,25 @@ body {
   color: white;
 }
 
+
+
 .logo {
   font-size: 24px;
   font-weight: bold;
+}
+
+
+
+.logo a {
+  color: #ffffff;        
+  text-decoration: none; 
+  font-weight: 700;      
+}
+
+
+.logo a:hover {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 .nav-links {
@@ -160,8 +176,8 @@ body {
   min-height: 100vh;
   padding: 40px 60px;
   box-sizing: border-box;
-   background-color: var(--bg-muted);
-   padding: 80px 8%;
+  background-color: var(--bg-muted);
+  padding: 80px 8%;
 }
 
 .gallery h2 {
@@ -223,7 +239,7 @@ body {
 }
 
 .about-text p {
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1.7;
   color: #555;
   margin-bottom: 15px;

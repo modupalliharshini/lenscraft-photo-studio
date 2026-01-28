@@ -1,4 +1,6 @@
-function About() {
+import React from 'react'
+
+const About = () => {
   return (
     <section className="about" id="about">
       <div className="about-content">
@@ -17,7 +19,7 @@ function About() {
         </div>
       </div>
     </section>
-  );
+  )
 }
 
-export default About;
+export default About
