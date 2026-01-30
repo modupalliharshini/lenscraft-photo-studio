@@ -10,6 +10,11 @@ const Home = () => {
   return (
     <div>
       <Hero />
+
+      <section className="trust-strip">
+        <p>Weddings • Portraits • Events • Commercial Photography</p>
+      </section>
+
       <Services/>
       <Gallery />
       <About/>
